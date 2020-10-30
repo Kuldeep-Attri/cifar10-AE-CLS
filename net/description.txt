@@ -1,0 +1,10 @@
+v1 --> A simple Neural Network with only Linear Layers and ReLU for both Autoencoder and Classifier
+	Autorncoder Arch: 3*32*32->512->256->128->256->512->3*32*32
+	Classifier Arch: 128->128->10
+
+
+v2 --> A Neural Network with both conv and linear layers.
+	Autoencoder Arch: 3*32*32->32*16*16->64*8*8->64*4*4->256->64*4*4->64*8*8->32*16*16->3*32*32
+	Classifier Arch: 256->128->10
+
+v3 --> A Neural Network with all conv layers with only 1 linear layer in classifier for num_classes output.
